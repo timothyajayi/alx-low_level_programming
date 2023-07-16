@@ -5,7 +5,7 @@
 /**
  * main-Entry point
  *
- * Return:Always 0(success)
+ * Return:Always 0 (success)
  */
 int main(void)
 {
@@ -18,7 +18,7 @@ int main(void)
 	{
 		printf("%d n is positive\n",n);
 	}
-	else if (n==0)
+	else if (n == 0)
 	{printf("%d n is zero\n",n);
 	}
 	else
