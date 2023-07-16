@@ -3,9 +3,9 @@
 #include <stdio.h>
 
 /**
- * main-Entry point
+ * main - determination of positive,negative and zero
  *
- * Return:Always 0 (success)
+ * Return: Always 0 (success)
  */
 int main(void)
 {
