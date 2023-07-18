@@ -17,3 +17,4 @@ void (print_alphabet_x0(void))
 		}
 				_putchar('\n');
 	}
+}
