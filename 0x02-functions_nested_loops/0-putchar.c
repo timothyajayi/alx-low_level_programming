@@ -1,12 +1,12 @@
-#include <main.h>
+#include "main.h"
 /**
  * main - Entry point
  *
  * Return: Always 0 (Success)
  */
-main(void)
+main(voidi)
 {
         char _putchar;
-                printf("_putchar", _putchar);
+                putchar("_putchar", _putchar);
                 return (0);
 }
