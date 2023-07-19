@@ -2,7 +2,7 @@
 
 /**
  * 3-islower.c -to print lowercase
- *
+ * description - lowercase from ASCII code
  * Return: Always 0.
  */
 int _islower(int c)
