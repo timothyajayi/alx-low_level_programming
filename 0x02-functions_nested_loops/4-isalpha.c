@@ -3,7 +3,7 @@
 /**
  * _isalpha - check the the entry to deteminate if is lower or upper
  *
- * description: check for the case
+ * @c: 4-isalpha.c
  * Return: Always 0.
  */
 
@@ -17,5 +17,6 @@ int _isalpha(int c)
 	{
 	return (0);
 	}
+
 	_puthchar('\n')
 }
