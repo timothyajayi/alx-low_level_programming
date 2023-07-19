@@ -1,19 +1,22 @@
 #include "main.h"
+
 /**
- * 3-islower.c - lowercase
+ * _islower - Check if it is in lowercase.
+ * write the lowercase
  *
  * Return: Always 0.
- */ 
+ */
+
 int _islower(int c)
 {
-	if (c >= 97 && c <= 122)
-	{	
-	
+	if (c >= 'a' && c <= 'z')
+	{
 		return (1);
 	}
 	else
 	{
 		return (0);
 	}
+
 		_putchar('\n');
 }
