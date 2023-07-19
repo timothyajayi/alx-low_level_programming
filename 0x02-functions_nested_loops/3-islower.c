@@ -1,9 +1,9 @@
 #include "main.h"
 /**
- * 3-islower.c - to print lowercase
- * description - lowercase from ASCII code
+ * 3-islower.c - lowercase
+ *
  * Return: Always 0.
- */
+ */ 
 int _islower(int c)
 {
 	if (c >= 97 && c <= 122)
