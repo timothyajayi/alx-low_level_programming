@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * 3-islower.c -to print lowercase
+ * 3-islower.c - to print lowercase
  * description - lowercase from ASCII code
  * Return: Always 0.
  */
