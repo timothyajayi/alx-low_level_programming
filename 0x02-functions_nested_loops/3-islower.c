@@ -1,5 +1,4 @@
 #include "main.h"
-
 /**
  * 3-islower.c -to print lowercase
  * description - lowercase from ASCII code
