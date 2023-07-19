@@ -1,8 +1,9 @@
 #include "main.h"
 
 /**
- * _islower - Check if it is in lowercase.
- * _islower - write the lowercase
+ * _islower - lowercase.
+ * @c: 3-islower.c
+ *
  * Return: Always 0.
  */
 
@@ -16,6 +17,7 @@ int _islower(int c)
 	{
 		return (0);
 	}
+
 
 		_putchar('\n');
 }
