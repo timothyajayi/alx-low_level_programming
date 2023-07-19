@@ -1,5 +1,7 @@
+#include "main.h"
+
 /**
- * print_sign - to compare the varianble n
+ * print_sign - Compare the variable N
  * @n: If is mayor than 0 show return 1 else 0
  *
  * Return: Always 0.
@@ -23,5 +25,6 @@ int print_sign(int n)
 		_putchar('-');
 		return (-1);
 	}
+
 	_putchar('\n');
 }
