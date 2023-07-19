@@ -3,7 +3,6 @@
 /**
  * _islower - Check if it is in lowercase.
  * _islower - write the lowercase
- *
  * Return: Always 0.
  */
 
