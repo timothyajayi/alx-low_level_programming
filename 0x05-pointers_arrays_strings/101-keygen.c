@@ -17,7 +17,7 @@ int main(void)
 	num = 0;
 	count = 0;
 	random = 0;
-
+	
 	char password [80];
 
 	srand(time(NULL));
