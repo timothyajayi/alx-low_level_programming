@@ -10,7 +10,7 @@
 char *cap_string(char *str)
 {
 	int i, j, convert;
-
+	
 	char chars[] = {' ', ',', ';', '.', '!', '?', '"', '(', ')', '{', '}',  '\t', '\n', '\0'};
 
 	for (i = 0; str[i] != '\0'; i++)
