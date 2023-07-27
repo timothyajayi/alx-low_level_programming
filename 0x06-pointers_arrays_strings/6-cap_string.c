@@ -28,8 +28,6 @@ char *cap_string(char *str)
 			break;
 		}
 	}
-	
 	}
 	return (str);
-	
 }
