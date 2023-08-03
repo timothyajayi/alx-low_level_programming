@@ -1,32 +1,36 @@
 #include "main.h"
 #include <stdio.h>
 
+int check_prime(int n, int i);
+
 /**
-  * cap_string - ...
-  * @s: ...
+  * is_prime_number - Returns if a number is prime
+  * @n: the number to be checked
   *
-  * Return: char value
+  * Return: integer value
   */
-char *cap_string(char *s)
+int is_prime_number(int n)
 {
-	int a = 0, i;
-	int cspc = 13;
-	char spc[] = {32, '\t', '\n', 44, ';', 46, '!', '?', '"', '(', ')', '{', '}'};
+	return (check_prime(n, 1));
+}
 
-	while (s[a])
-	{
-		i = 0;
+/**
+  * check_prime - Check if number is prime
+  * @n: the number to be checked
+  * @i: the iteration times
+  *
+  * Return: 1 for prime or 0 composite
+  */
+int check_prime(int n, int i)
+{
+	if (n <= 1)
+		return (0);
 
-		while (i < cspc)
-		{
-			if ((a == 0 || s[a - 1] == spc[i]) && (s[a] >= 97 && s[a] <= 122))
-				s[a] -= 32;
+	if (n % i == 0 && i > 1)
+		return (0);
 
-			i++;
-		}
+	if ((n / i) < i)
+		return (1);
 
-		a++;
-	}
-
-	return (s);
+	return (check_prime(n, i + 1));
 }
