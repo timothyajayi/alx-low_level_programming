@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - prints its name + \n
+ * main - entry point
  * @argc: number of arguments typed
  * @argv: array pointing to arguements
  * Return: 0
