@@ -21,7 +21,6 @@ int main(int argc, char *argv[])
 	{
 	for (i = 1; i < argc; i++)
 	result = result * atoi(argv[i]);
-	printf("argv [%d] = %s\n", i,  argv[i]);
 	}
 
 	printf("The multiples of result is %d\n", result);
