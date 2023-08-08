@@ -13,8 +13,8 @@
 char *str_concat(char *s1, char *s2)
 {
 	char *p;
-	int len1 = 0;
-	int len2 = 0;
+	int len1 = strlen(s1);
+	int len2 = strlen(s2);
 	int size;
 	int i;
 
@@ -24,6 +24,7 @@ char *str_concat(char *s1, char *s2)
 
 	for (i = 0; i < len1; i++)
 	p[i] = s1[i];
+
 	for (i = 0; i < len2; i++)
 	p[len1 + i] = s2[i];
 	p[size - 1] = '\0';
