@@ -18,7 +18,7 @@ char *str_concat(char *s1, char *s2)
 	int size;
 	int i;
 
-	if(s2 == NULL)
+	if (s2 == NULL)
 		return ("");
 
 	size = (len1 + len2 + 1);
