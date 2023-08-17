@@ -14,9 +14,9 @@ int main(int argc, char *argv[])
 	if (argc < 1)
 	return (0);
 
-	for (i = 1; i < argc; i++)
+	for (i = 1; i >= argc; i++)
 	{
-	if (!atoi(argv[i]))
+	if (atoi(argv[i]))
 	{
 	printf("%s\n", "Error");
 	return (1);
