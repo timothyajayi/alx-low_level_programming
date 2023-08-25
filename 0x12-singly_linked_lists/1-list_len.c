@@ -1,13 +1,14 @@
 #include <stdio.h>
 #include "lists.h"
 #include <stddef.h>
+
 /**
- *
- * @list_len : list of number
- * @h: This is the single linked list
- *
- * Return: The number of elements in a linked list_t list
- */
+* list_len - list of the num
+*
+* @h: Points to struct
+*
+* Return: Num of elements
+*/
 size_t list_len(const list_t *h)
 {
 	int num = 0;
