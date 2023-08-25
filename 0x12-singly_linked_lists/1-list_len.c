@@ -2,8 +2,8 @@
 #include "lists.h"
 #include <stddef.h>
 /**
- * @list_len - function that returns the number of elements with a single linked list
  *
+ * @list_len : list of number
  * @h: This is the single linked list
  *
  * Return: The number of elements in a linked list_t list
