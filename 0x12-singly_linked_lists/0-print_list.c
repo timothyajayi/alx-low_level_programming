@@ -3,25 +3,28 @@
 #include "lists.h"
 
 /**
- * print_list - print the elements of a linked list.
- * @h: liked list head.
+ * print_list - function that prints all the elements of a list.
  *
- * Return: this return the number of nodes of the linked list.
+ * @h: This take the value of the single list
+ *
+ * Return: Return: the number of nodes in the list
  *
  */
 
 size_t print_list(const list_t *h)
 {
-        size_t list = 0;
+	unsigned int num = 0;
 
-        while (h != NULL)
-        {
-        if (h->string == NULL)
-        printf("[%d] %s\n", 0, "(nil)");
-        else
-        printf("[%u] %s\n", h->len, h->string);
-        h = h->next;
-        list++;
-        }
-        return (list);
+	if (h == NULL)
+		return (0);
+	while (h != NULL)
+	{
+		if (h->str == NULL)
+			printf("[%u] (nil)\n", h->len);
+		else
+			printf("[%u] %s\n", h->len, h->str);
+		num =num + 1;
+		h = h->next;
+	}
+	return (num);
 }
