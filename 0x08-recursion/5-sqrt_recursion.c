@@ -13,31 +13,29 @@ int _sqrt_recursion(int n)
 	}
 	if (n == 0 || n == 1)
 	{
-	return n;
+	return (n);
 	}
 
-	int l = 0;
-	int m = n;
-	int result = -1;
+	return (_sqrt_test(n, 1);
+}
 
-	while (l <= m) {
-	int mid = l + (m - l) / 2;
-	long long square = (long long)mid * mid;
-
-	if (square == n)
+/**
+ * _sqrt_test - Helper function to find the square root recursively
+ * @n: The number to find the square root of
+ * @i: The current guess for the square root
+ *
+ * Return: The square root of the number, or -1 if there is no natural square root.
+ */
+int _sqrt_test(int n, int i)
+{
+	if (i * i == n)
 	{
-	return mid;
+	return (i);
 	}
-	if (square < n)
+	if (i * i > n)
 	{
-	l = mid + 1;
-	result = mid;
-	}
-	else
-	{
-	m = mid - 1;
-	}
+	return (-1);
 	}
 
-	return result;
+	return (_sqrt_test(n, i + 1));
 }
