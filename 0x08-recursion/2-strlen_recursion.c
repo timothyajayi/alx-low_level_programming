@@ -1,3 +1,4 @@
+#include "main.h"
 **
  * _strlen_recursion - Returns the length of a string.
  * @s: as the Pointer to the string.
